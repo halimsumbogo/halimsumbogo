@@ -1,0 +1,12 @@
+# Konfigurasi IDE / Editor Lokal
+.vscode/
+*.code-workspace
+.idea/
+
+# File Sementara / Sampah Sistem Operasi
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*

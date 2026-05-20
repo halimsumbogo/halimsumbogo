@@ -11,3 +11,6 @@ $RECYCLE.BIN/
 .DS_Store
 ._*
 
+# Catatan internal
+issue.md
+

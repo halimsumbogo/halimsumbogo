@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <style>
+      .terminal-header { fill: #181825; }
+      .terminal-body { fill: #1e1e2e; }
+      .text-base { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; fill: #cdd6f4; }
+      .text-prompt { fill: #a6e3a1; font-weight: bold; }
+      .text-cmd { fill: #f5e0dc; font-weight: bold; }
+      .text-accent { fill: #cba6f7; font-weight: bold; }
+      .text-success { fill: #a6e3a1; }
+      .text-info { fill: #89b4fa; }
+      .text-warning { fill: #f9e2af; }
+      .text-highlight { fill: #f5c2e7; }
+      
+      /* Blinking cursor */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1s infinite;
+        fill: #f5e0dc;
+      }
+
+      /* Line typing/revealing animations */
+      @keyframes reveal {
+        to { visibility: visible; }
+      }
+      
+      .line-1 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 0.5s; }
+      .line-2 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 2.0s; }
+      .line-3 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 3.5s; }
+      .line-4 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 5.0s; }
+      .line-5 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 6.5s; }
+      .line-6 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 8.0s; }
+      .line-7 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 9.5s; }
+      .line-8 { visibility: hidden; animation: reveal 0s forwards; animation-delay: 11.0s; }
+    </style>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect x="0" y="0" width="800" height="300" rx="10" fill="#1e1e2e" />
+  
+  <!-- Header Bar -->
+  <path d="M 0 10 A 10 10 0 0 1 10 0 L 790 0 A 10 10 0 0 1 800 10 L 800 35 L 0 35 Z" fill="#181825" />
+  
+  <!-- Control Buttons -->
+  <circle cx="20" cy="17.5" r="6" fill="#f38ba8" />
+  <circle cx="40" cy="17.5" r="6" fill="#f9e2af" />
+  <circle cx="60" cy="17.5" r="6" fill="#a6e3a1" />
+  
+  <!-- Window Title -->
+  <text x="400" y="22" font-family="'Fira Code', 'Courier New', monospace" font-size="13" fill="#cdd6f4" text-anchor="middle">halim@iot-dev:~ (bash)</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(25, 60)">
+    <!-- Line 1: Prompt & Command -->
+    <g class="line-1">
+      <text class="text-base" y="0">
+        <tspan class="text-prompt">halim@iot-dev:~$</tspan>
+        <tspan class="text-cmd" dx="10">./halim.sh --status</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2: Loading message -->
+    <g class="line-2">
+      <text class="text-base" y="25">
+        <tspan class="text-info">⚡ Initializing hardware profiles...</tspan>
+      </text>
+    </g>
+
+    <!-- Line 3: Progress bar & status -->
+    <g class="line-3">
+      <text class="text-base" y="50">
+        <tspan class="text-success">[========================================] 100% loaded</tspan>
+      </text>
+    </g>
+
+    <!-- Line 4: Info Name & Role -->
+    <g class="line-4">
+      <text class="text-base" y="85">
+        <tspan class="text-accent">❯ User:</tspan>
+        <tspan dx="10" fill="#cdd6f4">Halim Sumbogo</tspan>
+        <tspan dx="20" class="text-accent">❯ Role:</tspan>
+        <tspan dx="10" fill="#cdd6f4">Software Engineer &amp; IoT Enthusiast</tspan>
+      </text>
+    </g>
+
+    <!-- Line 5: Tech stack -->
+    <g class="line-5">
+      <text class="text-base" y="115">
+        <tspan class="text-accent">❯ Hardware:</tspan>
+        <tspan dx="10" fill="#f9e2af">C/C++, Arduino, ESP32, FreeRTOS, RFID, SPI/I2C/UART</tspan>
+      </text>
+    </g>
+
+    <!-- Line 6: Tools & Platforms -->
+    <g class="line-6">
+      <text class="text-base" y="145">
+        <tspan class="text-accent">❯ Software:</tspan>
+        <tspan dx="10" fill="#a6e3a1">Git, GitHub Actions, Node.js, Python, Wokwi, VS Code</tspan>
+      </text>
+    </g>
+
+    <!-- Line 7: Current Activity -->
+    <g class="line-7">
+      <text class="text-base" y="175">
+        <tspan class="text-accent">❯ Active task:</tspan>
+        <tspan dx="10" fill="#f5c2e7">Designing modular firmware &amp; anti-fragmentation EEPROM storage</tspan>
+      </text>
+    </g>
+
+    <!-- Line 8: New prompt with blinking cursor -->
+    <g class="line-8">
+      <text class="text-base" y="210">
+        <tspan class="text-prompt">halim@iot-dev:~$</tspan>
+        <rect class="cursor" x="140" y="196" width="8" height="15" />
+      </text>
+    </g>
+  </g>
+</svg>

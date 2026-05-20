@@ -61,24 +61,15 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
   <table border="0">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=halimsumbogo&show_icons=true&theme=tokyonight&count_private=true&hide=issues,contribs" alt="Halim's GitHub Stats" width="100%">
+        <img src="https://raw.githubusercontent.com/halimsumbogo/halimsumbogo/main/assets/metrics-stats.svg" alt="Halim's GitHub Stats" width="100%">
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=halimsumbogo&layout=compact&theme=tokyonight&hide=javascript,html,css" alt="Top Languages" width="100%">
+        <img src="https://raw.githubusercontent.com/halimsumbogo/halimsumbogo/main/assets/metrics-languages.svg" alt="Top Languages" width="100%">
       </td>
     </tr>
   </table>
 </div>
 
-#### ⏱️ Weekly Coding Activity
-
-<!--START_SECTION:waka-->
-
-```txt
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
 
 ---
 

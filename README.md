@@ -10,7 +10,7 @@
 
   <!-- Animated Typing SVG Header -->
   <a href="https://github.com/halimsumbogo">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=Software+Engineer;IoT+%26+Embedded+Developer;Maker+%26+Innovator" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=Software+Engineer;IoT+Systems+Architect;Embedded+C%2FC%2B%2B+Developer;Bridging+Software+%26+Hardware" alt="Typing SVG" />
   </a>
 </div>
 

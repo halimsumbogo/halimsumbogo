@@ -73,6 +73,11 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 #### ⏱️ Weekly Coding Activity
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---

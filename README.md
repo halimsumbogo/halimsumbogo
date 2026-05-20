@@ -4,13 +4,13 @@
   <h1>Hi there, I'm Halim! 👋</h1>
   
   <p>
-    <a href="https://github.com/halimsumbogo"><img src="https://komarev.com/normal-badge/?username=halimsumbogo&color=7F00FF&style=flat-square" alt="Profile Views"></a>
+    <a href="https://github.com/halimsumbogo"><img src="https://komarev.com/ghpvc/?username=halimsumbogo&color=7F00FF&style=flat-square" alt="Profile Views"></a>
     <a href="https://github.com/halimsumbogo"><img src="https://img.shields.io/github/followers/halimsumbogo?style=flat-square&logo=github&color=7F00FF" alt="Followers"></a>
   </p>
 
-  <!-- Animated CLI Terminal Header -->
+  <!-- Animated Typing SVG Header -->
   <a href="https://github.com/halimsumbogo">
-    <img src="https://raw.githubusercontent.com/halimsumbogo/halimsumbogo/main/assets/terminal.svg" alt="Halim's Terminal CLI" width="800" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=Software+Engineer;IoT+%26+Embedded+Developer;Maker+%26+Innovator" alt="Typing SVG" />
   </a>
 </div>
 

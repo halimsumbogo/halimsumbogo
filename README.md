@@ -10,7 +10,7 @@
 
   <!-- Animated CLI Terminal Header -->
   <a href="https://github.com/halimsumbogo">
-    <img src="assets/terminal.svg" alt="Halim's Terminal CLI" width="100%" style="max-width: 800px;" />
+    <img src="https://raw.githubusercontent.com/halimsumbogo/halimsumbogo/main/assets/terminal.svg" alt="Halim's Terminal CLI" width="800" />
   </a>
 </div>
 
@@ -25,32 +25,7 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 - 💬 **Ask me about:** Arduino, RFID implementations, C/C++ architecture, and hardware debugging.
 - ⚡ **Fun fact:** I believe that writing clean, modular code for microcontrollers is just as important as writing it for high-scale cloud applications.
 
----
 
-### 🧠 Tech Philosophy & IoT Architecture
-
-As an IoT developer, I design systems with modularity and robust connectivity in mind. Here is a typical architecture pattern I implement:
-
-```mermaid
-graph TD
-    %% Nodes
-    Sensors["📟 Sensors / RFID (MFRC522)"] -->|SPI / I2C / GPIO| ESP32["🎮 ESP32 / Microcontroller"]
-    ESP32 -->|FreeRTOS Tasks| Buffer["💾 EEPROM (Anti-fragmentation ring buffer)"]
-    ESP32 -->|WiFi / Secure MQTT| Broker["☁️ MQTT Broker (Mosquitto/HiveMQ)"]
-    Broker -->|JSON Payload| Server["🚀 Node.js / Python Backend"]
-    Server -->|WebSockets / REST| Dashboard["📊 Real-time Dashboard"]
-
-    %% Styles
-    classDef hardware fill:#181825,stroke:#cba6f7,stroke-width:2px,color:#cdd6f4;
-    classDef network fill:#181825,stroke:#89b4fa,stroke-width:2px,color:#cdd6f4;
-    classDef software fill:#181825,stroke:#a6e3a1,stroke-width:2px,color:#cdd6f4;
-    
-    class Sensors,ESP32,Buffer hardware;
-    class Broker network;
-    class Server,Dashboard software;
-```
-
----
 
 ### 🛠️ Tech Stack & Toolbox
 

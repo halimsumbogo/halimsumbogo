@@ -75,7 +75,8 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Markdown   29 mins               ███████████████████▓░░░░░   78.63 %
+YAML       7 mins                █████▒░░░░░░░░░░░░░░░░░░░   21.37 %
 ```
 
 <!--END_SECTION:waka-->

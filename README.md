@@ -75,11 +75,11 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     1 hr 4 mins           ██████████▒░░░░░░░░░░░░░░   40.73 %
-TypeScript   1 hr 3 mins           ██████████░░░░░░░░░░░░░░░   39.96 %
-Other        18 mins               ███░░░░░░░░░░░░░░░░░░░░░░   11.57 %
-JSON         8 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   05.40 %
-JavaScript   3 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.09 %
+Markdown     42 mins               █████████████▓░░░░░░░░░░░   55.01 %
+TypeScript   25 mins               ████████░░░░░░░░░░░░░░░░░   32.36 %
+Other        5 mins                █▓░░░░░░░░░░░░░░░░░░░░░░░   06.72 %
+JavaScript   3 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.23 %
+JSON         1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
 ```
 
 <!--END_SECTION:waka-->

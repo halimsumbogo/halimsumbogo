@@ -76,9 +76,9 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 
 ```txt
 Other        4 hrs 47 mins         ███████░░░░░░░░░░░░░░░░░░   28.53 %
-TypeScript   4 hrs 37 mins         ███████░░░░░░░░░░░░░░░░░░   27.54 %
-Markdown     3 hrs 6 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.45 %
-JSON         2 hrs 4 mins          ███░░░░░░░░░░░░░░░░░░░░░░   12.33 %
+TypeScript   4 hrs 44 mins         ███████░░░░░░░░░░░░░░░░░░   28.22 %
+Markdown     3 hrs 21 mins         █████░░░░░░░░░░░░░░░░░░░░   19.97 %
+JSON         1 hr 42 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.12 %
 Bash         1 hr 27 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.66 %
 ```
 

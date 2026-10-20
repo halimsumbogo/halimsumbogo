@@ -75,11 +75,7 @@ I am a passionate **Software Engineer** and **IoT Enthusiast** who loves buildin
 <!--START_SECTION:waka-->
 
 ```txt
-Python       21 mins               █████████▒░░░░░░░░░░░░░░░   37.68 %
-Markdown     14 mins               ██████▒░░░░░░░░░░░░░░░░░░   25.25 %
-TypeScript   11 mins               █████▒░░░░░░░░░░░░░░░░░░░   20.69 %
-JSON         7 mins                ███░░░░░░░░░░░░░░░░░░░░░░   12.56 %
-Other        2 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   03.81 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
